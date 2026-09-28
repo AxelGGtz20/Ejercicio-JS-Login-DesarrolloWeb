@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Cuadro del login*/
+.login {
+    width: 400px;
+    padding: 35px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Campos*/
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/*Botón*/
+.botones {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.botones button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: #ccc;
+}
+
+.botones a {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+}
+
+/*Mensajes de error*/
+.error {
+    display: block;
+    margin-top: 5px;
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.inputError {
+    border: 2px solid red !important;
+}
+
+/*Ventana de recuperar contraseña*/
+.ventana {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+
+.ventanaContenido {
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ventanaContenido h2 {
+    margin-top: 0;
+}
+
+.ventanaContenido label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.ventanaContenido input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.ventanaContenido button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
